@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AccessVision</string>
+
+    <!-- TTS Announcements -->
+    <string name="tts_welcome">AccessVision is ready. Tap the screen to hear your surroundings.</string>
+    <string name="tts_hazard_prefix">Warning:</string>
+    <string name="tts_obstacle_template">%1$s %2$s %3$s</string>
+    <string name="tts_sign_prefix">Sign reads:</string>
+    <string name="tts_mode_navigation">Navigation mode active</string>
+    <string name="tts_mode_text">Text reader mode active</string>
+    <string name="tts_mode_hazard">Hazard warning mode active</string>
+    <string name="tts_muted">Audio muted</string>
+    <string name="tts_unmuted">Audio unmuted</string>
+    <string name="tts_ocr_on">Text capture activated</string>
+    <string name="tts_ocr_off">Text capture deactivated</string>
+
+    <!-- Proximity labels -->
+    <string name="proximity_far">far</string>
+    <string name="proximity_approaching">approaching</string>
+    <string name="proximity_hazard">obstacle direct</string>
+
+    <!-- Spatial zone labels -->
+    <string name="zone_left">on your left</string>
+    <string name="zone_center">ahead</string>
+    <string name="zone_right">on your right</string>
+
+    <!-- Accessibility content descriptions -->
+    <string name="cd_camera_preview">Camera preview showing your surroundings</string>
+    <string name="cd_gesture_overlay">Touch area for gesture controls. Tap to hear scene. Double tap for text capture. Swipe left or right to switch modes.</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_rationale">AccessVision needs camera access to detect obstacles and read signs for you.</string>
+    <string name="permission_camera_denied">Camera permission is required. Please enable it in Settings.</string>
+</resources>
